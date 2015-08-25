@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'datum_Example', :exclusive => true do
+  pod "datum", :path => "../"
+end
+
+target 'datum_Tests', :exclusive => true do
+  pod "datum", :path => "../"
+
+  pod 'Quick', '~> 0.3.1'
+  pod 'Nimble'
+end
