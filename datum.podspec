@@ -8,23 +8,23 @@
 
 Pod::Spec.new do |s|
   s.name             = "datum"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of datum."
+  s.version          = "0.0.1"
+  s.summary          = "distributed data structures"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+#   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description      = <<-DESC
+DataStructures that are synced with backend automatically over mqtt/ws using
+observer pattern.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/datum"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/elarasu/datum"
   s.license          = 'MIT'
   s.author           = { "el" => "elarasu@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/datum.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/elarasu/datum.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -34,7 +34,6 @@ Pod::Spec.new do |s|
     'datum' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
