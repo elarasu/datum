@@ -20,6 +20,10 @@ it, simply add the following line to your Podfile:
 pod "datum"
 ```
 
+## Todo
+   * Implement observer and memento patterns
+   * http://www.raywenderlich.com/90773/introducing-ios-design-patterns-in-swift-part-2
+
 ## License
 
 datum is available under the MIT license. See the LICENSE file for more info.
